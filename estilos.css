@@ -1,0 +1,61 @@
+/* Fondo de toda la pagina */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;  
+  margin: 0;
+  padding: 40px 20px;  
+  background: #2047c4;  
+}
+
+/* Caja blanca del centro */
+.tarjeta {
+  max-width: 450px;  
+  margin: 0 auto; 
+  padding: 25px;
+  background: rgb(0, 0, 0);
+  border-radius: 20px;  
+  box-shadow: 0 10px 25px rgba(79, 107, 237, 0.2);  
+}
+
+/* Titulo de arriba */
+label {
+  display: block; 
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;  
+  color: #f60909;
+}
+
+/* Zona de texto */
+textarea {
+  width: 100%;
+  height: 140px;
+  box-sizing: border-box;  
+  padding: 12px;
+  border: 2px solid #66ea07;  
+  border-radius: 12px;
+  font-family: inherit;  
+  font-size: 16px;
+  resize: none;  
+}
+
+textarea:focus {
+  outline: 3px solid #c7d0ff;  
+}
+
+/* Contador abajo a la derecha */
+#contador {
+  margin: 8px 0 0;
+  text-align: right;  
+  color: #0e0101;
+}
+
+/* Cuando se llega al limite: borde rojo */
+textarea.limite {
+  border-color: #d32f2f;
+}
+
+/* Cuando se llega al limite: contador rojo */
+#contador.limite {
+  color: #d32f2f;
+  font-weight: bold;
+}
