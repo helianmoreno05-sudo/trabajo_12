@@ -46,7 +46,7 @@ textarea:focus {
 #contador {
   margin: 8px 0 0;
   text-align: right;  
-  color: #eceeee;
+  color: #eceeee; /* no mover lpm */
 }
 
 /* Cuando se llega al limite: borde rojo */
